@@ -323,18 +323,19 @@
     switch (requestMethod) {
         case ZZReuqestGet:
         {
-            task = [self.sessionManager GET:theRequestUrl parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-                [self handleReponseResult:task response:responseObject error:nil];
-            } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-                [self handleReponseResult:task response:nil error:error];
-            }];
+
+            task = [self.sessionManager GET:theRequestUrl parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+                        [self handleReponseResult:task response:responseObject error:nil];
+                    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+                        [self handleReponseResult:task response:nil error:error];
+                    }];
             
         }
             break;
             
         case ZZReuqestPost:
         {
-            task = [self.sessionManager POST:theRequestUrl parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+            task = [self.sessionManager POST:theRequestUrl parameters:params success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
                 [self handleReponseResult:task response:responseObject error:nil];
             } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
                 [self handleReponseResult:task response:nil error:error];
