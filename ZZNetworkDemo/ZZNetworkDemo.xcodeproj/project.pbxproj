@@ -12,8 +12,8 @@
 		E135880B1CA249D300DED543 /* ZZRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E13588041CA249D300DED543 /* ZZRequestConfig.m */; };
 		E135880C1CA249D300DED543 /* ZZRequestDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E13588061CA249D300DED543 /* ZZRequestDataCache.m */; };
 		E135880D1CA249D300DED543 /* ZZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E13588081CA249D300DED543 /* ZZRequestManager.m */; };
-		E13588101CA24ACE00DED543 /* ZZRequestGeneralParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = E135880F1CA24ACE00DED543 /* ZZRequestGeneralParameters.m */; };
-		E13588131CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m in Sources */ = {isa = PBXBuildFile; fileRef = E13588121CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m */; };
+		E17E62581D0669F800BF2038 /* NSMutableDictionary+ZZExtends.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E62551D0669F800BF2038 /* NSMutableDictionary+ZZExtends.m */; };
+		E17E62591D0669F800BF2038 /* ZZRequestGeneralParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E62571D0669F800BF2038 /* ZZRequestGeneralParameters.m */; };
 		E57D84691C43AB95002F3302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D84681C43AB95002F3302 /* main.m */; };
 		E57D846C1C43AB95002F3302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D846B1C43AB95002F3302 /* AppDelegate.m */; };
 		E57D846F1C43AB95002F3302 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D846E1C43AB95002F3302 /* ViewController.m */; };
@@ -51,10 +51,10 @@
 		E13588061CA249D300DED543 /* ZZRequestDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestDataCache.m; sourceTree = "<group>"; };
 		E13588071CA249D300DED543 /* ZZRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequestManager.h; sourceTree = "<group>"; };
 		E13588081CA249D300DED543 /* ZZRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestManager.m; sourceTree = "<group>"; };
-		E135880E1CA24ACE00DED543 /* ZZRequestGeneralParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequestGeneralParameters.h; sourceTree = "<group>"; };
-		E135880F1CA24ACE00DED543 /* ZZRequestGeneralParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestGeneralParameters.m; sourceTree = "<group>"; };
-		E13588111CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZZExtends.h"; sourceTree = "<group>"; };
-		E13588121CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZZExtends.m"; sourceTree = "<group>"; };
+		E17E62541D0669F800BF2038 /* NSMutableDictionary+ZZExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZZExtends.h"; sourceTree = "<group>"; };
+		E17E62551D0669F800BF2038 /* NSMutableDictionary+ZZExtends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZZExtends.m"; sourceTree = "<group>"; };
+		E17E62561D0669F800BF2038 /* ZZRequestGeneralParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequestGeneralParameters.h; sourceTree = "<group>"; };
+		E17E62571D0669F800BF2038 /* ZZRequestGeneralParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestGeneralParameters.m; sourceTree = "<group>"; };
 		E57D84641C43AB95002F3302 /* ZZNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57D84681C43AB95002F3302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E57D846A1C43AB95002F3302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,6 +115,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E17E62531D0669F800BF2038 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				E17E62541D0669F800BF2038 /* NSMutableDictionary+ZZExtends.h */,
+				E17E62551D0669F800BF2038 /* NSMutableDictionary+ZZExtends.m */,
+				E17E62561D0669F800BF2038 /* ZZRequestGeneralParameters.h */,
+				E17E62571D0669F800BF2038 /* ZZRequestGeneralParameters.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
 		E57D845B1C43AB95002F3302 = {
 			isa = PBXGroup;
 			children = (
@@ -138,8 +149,7 @@
 				E57D846B1C43AB95002F3302 /* AppDelegate.m */,
 				E57D846D1C43AB95002F3302 /* ViewController.h */,
 				E57D846E1C43AB95002F3302 /* ViewController.m */,
-				E13588111CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.h */,
-				E13588121CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m */,
+				E17E62531D0669F800BF2038 /* Optional */,
 				E57D84871C43AC59002F3302 /* AFNetwork */,
 				E57D84AB1C43AC59002F3302 /* ZZNetwork */,
 				E57D84801C43AC2E002F3302 /* TestApi */,
@@ -231,19 +241,17 @@
 		E57D84AB1C43AC59002F3302 /* ZZNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				E13588031CA249D300DED543 /* ZZRequestConfig.h */,
+				E13588041CA249D300DED543 /* ZZRequestConfig.m */,
 				E13588011CA249D300DED543 /* ZZRequest.h */,
 				E13588021CA249D300DED543 /* ZZRequest.m */,
 				E13587FE1CA249D300DED543 /* ZZBaseRequest.h */,
 				E13587FF1CA249D300DED543 /* ZZBaseRequest.m */,
-				E13588001CA249D300DED543 /* ZZDataCacheProtocol.h */,
-				E13588031CA249D300DED543 /* ZZRequestConfig.h */,
-				E13588041CA249D300DED543 /* ZZRequestConfig.m */,
 				E13588071CA249D300DED543 /* ZZRequestManager.h */,
 				E13588081CA249D300DED543 /* ZZRequestManager.m */,
 				E13588051CA249D300DED543 /* ZZRequestDataCache.h */,
 				E13588061CA249D300DED543 /* ZZRequestDataCache.m */,
-				E135880E1CA24ACE00DED543 /* ZZRequestGeneralParameters.h */,
-				E135880F1CA24ACE00DED543 /* ZZRequestGeneralParameters.m */,
+				E13588001CA249D300DED543 /* ZZDataCacheProtocol.h */,
 			);
 			name = ZZNetwork;
 			path = ../../ZZNetwork;
@@ -329,19 +337,19 @@
 				E57D84C11C43AC59002F3302 /* UIButton+AFNetworking.m in Sources */,
 				E57D84C01C43AC59002F3302 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				E57D84BC1C43AC59002F3302 /* AFURLSessionManager.m in Sources */,
+				E17E62581D0669F800BF2038 /* NSMutableDictionary+ZZExtends.m in Sources */,
+				E17E62591D0669F800BF2038 /* ZZRequestGeneralParameters.m in Sources */,
 				E135880A1CA249D300DED543 /* ZZRequest.m in Sources */,
 				E57D84C41C43AC59002F3302 /* UIRefreshControl+AFNetworking.m in Sources */,
 				E57D84C51C43AC59002F3302 /* UIWebView+AFNetworking.m in Sources */,
 				E135880D1CA249D300DED543 /* ZZRequestManager.m in Sources */,
 				E135880B1CA249D300DED543 /* ZZRequestConfig.m in Sources */,
 				E13588091CA249D300DED543 /* ZZBaseRequest.m in Sources */,
-				E13588131CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m in Sources */,
 				E57D84BB1C43AC59002F3302 /* AFURLResponseSerialization.m in Sources */,
 				E57D84B81C43AC59002F3302 /* AFNetworkReachabilityManager.m in Sources */,
 				E135880C1CA249D300DED543 /* ZZRequestDataCache.m in Sources */,
 				E57D84B91C43AC59002F3302 /* AFSecurityPolicy.m in Sources */,
 				E57D84B71C43AC59002F3302 /* AFHTTPSessionManager.m in Sources */,
-				E13588101CA24ACE00DED543 /* ZZRequestGeneralParameters.m in Sources */,
 				E57D84691C43AB95002F3302 /* main.m in Sources */,
 				E57D84BF1C43AC59002F3302 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				E57D84851C43AC2E002F3302 /* MovieApi.m in Sources */,

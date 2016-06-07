@@ -101,17 +101,6 @@
             if (![NSJSONSerialization isValidJSONObject:request.responseObject] || !request.responseObject) {
                 request.error = [NSError errorWithDomain:@"数据错误" code:-1005 userInfo:nil];
             }
-//            else
-//            {
-//                NSDictionary *resultDic = request.responseObject;
-//                NSString *result = [resultDic objectForKey:@"result"];
-//                NSString *info = [resultDic objectForKey:@"info"];
-//                info = info.length > 0 ? info : @"数据错误";
-//                
-//                if (![result isEqualToString:@"success"]) {
-//                    request.error = [NSError errorWithDomain:info code:-1005 userInfo:nil];
-//                }
-//            }
         }
     }
     else

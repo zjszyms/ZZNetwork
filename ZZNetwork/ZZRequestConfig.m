@@ -25,7 +25,7 @@
 
 #import "ZZRequestConfig.h"
 #import "ZZRequestDataCache.h"
-#import "ZZRequestGeneralParameters.h"
+//#import "ZZRequestGeneralParameters.h"
 
 @interface ZZRequestConfig ()
 
@@ -55,9 +55,9 @@
     return [ZZRequestDataCache sharedInstance];
 }
 
-- (id<ZZBuiltinParametersProtocol>)builtinParametersManager
-{
-    return [ZZRequestGeneralParameters sharedInstance];
-}
+//- (id<ZZBuiltinParametersProtocol>)builtinParametersManager
+//{
+//    return [ZZRequestGeneralParameters sharedInstance];
+//}
 
 @end
