@@ -25,7 +25,7 @@
 
 #import "ZZRequestConfig.h"
 #import "ZZRequestDataCache.h"
-#import "ZZRequestGeneralParameters.h"
+//#import "ZZRequestGeneralParameters.h"
 
 @interface ZZRequestConfig ()
 
@@ -55,9 +55,10 @@
     return [ZZRequestDataCache sharedInstance];
 }
 
-- (id<ZZBuiltinParametersProtocol>)builtinParametersManager
-{
-    return [ZZRequestGeneralParameters sharedInstance];
-}
+#warning 所有Api增加参数，可以实现返回实现这个ZZBuiltinParametersProtocol的类
+//- (id<ZZBuiltinParametersProtocol>)builtinParametersManager
+//{
+//    return [ZZRequestGeneralParameters sharedInstance];
+//}
 
 @end

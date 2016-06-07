@@ -12,8 +12,6 @@
 		E135880B1CA249D300DED543 /* ZZRequestConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E13588041CA249D300DED543 /* ZZRequestConfig.m */; };
 		E135880C1CA249D300DED543 /* ZZRequestDataCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E13588061CA249D300DED543 /* ZZRequestDataCache.m */; };
 		E135880D1CA249D300DED543 /* ZZRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E13588081CA249D300DED543 /* ZZRequestManager.m */; };
-		E13588101CA24ACE00DED543 /* ZZRequestGeneralParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = E135880F1CA24ACE00DED543 /* ZZRequestGeneralParameters.m */; };
-		E13588131CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m in Sources */ = {isa = PBXBuildFile; fileRef = E13588121CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m */; };
 		E13A6BD81CD2F30E00548716 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A6BB31CD2F30E00548716 /* AFHTTPRequestOperation.m */; };
 		E13A6BD91CD2F30E00548716 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A6BB51CD2F30E00548716 /* AFHTTPRequestOperationManager.m */; };
 		E13A6BDA1CD2F30E00548716 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A6BB71CD2F30E00548716 /* AFHTTPSessionManager.m */; };
@@ -31,6 +29,8 @@
 		E13A6BE61CD2F30E00548716 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A6BD31CD2F30E00548716 /* UIProgressView+AFNetworking.m */; };
 		E13A6BE71CD2F30E00548716 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A6BD51CD2F30E00548716 /* UIRefreshControl+AFNetworking.m */; };
 		E13A6BE81CD2F30E00548716 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A6BD71CD2F30E00548716 /* UIWebView+AFNetworking.m */; };
+		E17E624E1D06678100BF2038 /* NSMutableDictionary+ZZExtends.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E624B1D06678100BF2038 /* NSMutableDictionary+ZZExtends.m */; };
+		E17E62521D06681D00BF2038 /* ZZRequestGeneralParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = E17E62511D06681D00BF2038 /* ZZRequestGeneralParameters.m */; };
 		E57D84691C43AB95002F3302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D84681C43AB95002F3302 /* main.m */; };
 		E57D846C1C43AB95002F3302 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D846B1C43AB95002F3302 /* AppDelegate.m */; };
 		E57D846F1C43AB95002F3302 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E57D846E1C43AB95002F3302 /* ViewController.m */; };
@@ -53,10 +53,6 @@
 		E13588061CA249D300DED543 /* ZZRequestDataCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestDataCache.m; sourceTree = "<group>"; };
 		E13588071CA249D300DED543 /* ZZRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequestManager.h; sourceTree = "<group>"; };
 		E13588081CA249D300DED543 /* ZZRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestManager.m; sourceTree = "<group>"; };
-		E135880E1CA24ACE00DED543 /* ZZRequestGeneralParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequestGeneralParameters.h; sourceTree = "<group>"; };
-		E135880F1CA24ACE00DED543 /* ZZRequestGeneralParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestGeneralParameters.m; sourceTree = "<group>"; };
-		E13588111CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZZExtends.h"; sourceTree = "<group>"; };
-		E13588121CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZZExtends.m"; sourceTree = "<group>"; };
 		E13A6BB21CD2F30E00548716 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		E13A6BB31CD2F30E00548716 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		E13A6BB41CD2F30E00548716 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -94,6 +90,10 @@
 		E13A6BD51CD2F30E00548716 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		E13A6BD61CD2F30E00548716 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		E13A6BD71CD2F30E00548716 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		E17E624A1D06678100BF2038 /* NSMutableDictionary+ZZExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+ZZExtends.h"; sourceTree = "<group>"; };
+		E17E624B1D06678100BF2038 /* NSMutableDictionary+ZZExtends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+ZZExtends.m"; sourceTree = "<group>"; };
+		E17E62501D06681D00BF2038 /* ZZRequestGeneralParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRequestGeneralParameters.h; sourceTree = "<group>"; };
+		E17E62511D06681D00BF2038 /* ZZRequestGeneralParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRequestGeneralParameters.m; sourceTree = "<group>"; };
 		E57D84641C43AB95002F3302 /* ZZNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57D84681C43AB95002F3302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E57D846A1C43AB95002F3302 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -172,6 +172,17 @@
 			path = "UIKit+AFNetworking";
 			sourceTree = "<group>";
 		};
+		E17E62491D06678100BF2038 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				E17E624A1D06678100BF2038 /* NSMutableDictionary+ZZExtends.h */,
+				E17E624B1D06678100BF2038 /* NSMutableDictionary+ZZExtends.m */,
+				E17E62501D06681D00BF2038 /* ZZRequestGeneralParameters.h */,
+				E17E62511D06681D00BF2038 /* ZZRequestGeneralParameters.m */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
 		E57D845B1C43AB95002F3302 = {
 			isa = PBXGroup;
 			children = (
@@ -195,8 +206,7 @@
 				E57D846B1C43AB95002F3302 /* AppDelegate.m */,
 				E57D846D1C43AB95002F3302 /* ViewController.h */,
 				E57D846E1C43AB95002F3302 /* ViewController.m */,
-				E13588111CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.h */,
-				E13588121CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m */,
+				E17E62491D06678100BF2038 /* Optional */,
 				E57D84871C43AC59002F3302 /* AFNetwork */,
 				E57D84AB1C43AC59002F3302 /* ZZNetwork */,
 				E57D84801C43AC2E002F3302 /* TestApi */,
@@ -241,19 +251,17 @@
 		E57D84AB1C43AC59002F3302 /* ZZNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				E13588031CA249D300DED543 /* ZZRequestConfig.h */,
+				E13588041CA249D300DED543 /* ZZRequestConfig.m */,
 				E13588011CA249D300DED543 /* ZZRequest.h */,
 				E13588021CA249D300DED543 /* ZZRequest.m */,
 				E13587FE1CA249D300DED543 /* ZZBaseRequest.h */,
 				E13587FF1CA249D300DED543 /* ZZBaseRequest.m */,
-				E13588001CA249D300DED543 /* ZZDataCacheProtocol.h */,
-				E13588031CA249D300DED543 /* ZZRequestConfig.h */,
-				E13588041CA249D300DED543 /* ZZRequestConfig.m */,
 				E13588071CA249D300DED543 /* ZZRequestManager.h */,
 				E13588081CA249D300DED543 /* ZZRequestManager.m */,
 				E13588051CA249D300DED543 /* ZZRequestDataCache.h */,
 				E13588061CA249D300DED543 /* ZZRequestDataCache.m */,
-				E135880E1CA24ACE00DED543 /* ZZRequestGeneralParameters.h */,
-				E135880F1CA24ACE00DED543 /* ZZRequestGeneralParameters.m */,
+				E13588001CA249D300DED543 /* ZZDataCacheProtocol.h */,
 			);
 			name = ZZNetwork;
 			path = ../../ZZNetwork;
@@ -329,6 +337,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E13A6BE31CD2F30E00548716 /* UIAlertView+AFNetworking.m in Sources */,
+				E17E62521D06681D00BF2038 /* ZZRequestGeneralParameters.m in Sources */,
+				E17E624E1D06678100BF2038 /* NSMutableDictionary+ZZExtends.m in Sources */,
 				E13A6BE51CD2F30E00548716 /* UIImageView+AFNetworking.m in Sources */,
 				E13A6BE41CD2F30E00548716 /* UIButton+AFNetworking.m in Sources */,
 				E13A6BD81CD2F30E00548716 /* AFHTTPRequestOperation.m in Sources */,
@@ -346,13 +356,11 @@
 				E13A6BDC1CD2F30E00548716 /* AFSecurityPolicy.m in Sources */,
 				E13588091CA249D300DED543 /* ZZBaseRequest.m in Sources */,
 				E13A6BDE1CD2F30E00548716 /* AFURLRequestSerialization.m in Sources */,
-				E13588131CA24BBE00DED543 /* NSMutableDictionary+ZZExtends.m in Sources */,
 				E13A6BDF1CD2F30E00548716 /* AFURLResponseSerialization.m in Sources */,
 				E135880C1CA249D300DED543 /* ZZRequestDataCache.m in Sources */,
 				E13A6BE21CD2F30E00548716 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				E13A6BE71CD2F30E00548716 /* UIRefreshControl+AFNetworking.m in Sources */,
 				E13A6BE61CD2F30E00548716 /* UIProgressView+AFNetworking.m in Sources */,
-				E13588101CA24ACE00DED543 /* ZZRequestGeneralParameters.m in Sources */,
 				E13A6BE81CD2F30E00548716 /* UIWebView+AFNetworking.m in Sources */,
 				E13A6BDA1CD2F30E00548716 /* AFHTTPSessionManager.m in Sources */,
 				E57D84691C43AB95002F3302 /* main.m in Sources */,

@@ -1,9 +1,9 @@
-# ZZNetwork
+# ZZNetwork 2.0
 ZZNetwork 主要是对AFNetworking进行了封装，便于网络请求。
 
 ## 编译环境
 xcode 7+
-AFNetworking 3+
+AFNetworking 2.X
 
 ## 运行项目
 下载后直接运行，本项目中得AFNetworking不是最新版本，生产环境请请更换置最新版本。
